@@ -2,4 +2,3 @@ flask
 discord
 thread
 requests
-os
