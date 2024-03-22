@@ -1,1 +1,5 @@
 flask
+discord
+threading
+requests
+os
