@@ -1,5 +1,5 @@
 flask
 discord
-threading
+thread
 requests
 os
