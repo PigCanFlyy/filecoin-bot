@@ -1,4 +1,4 @@
 flask
-discord
+discord.py
 thread
 requests
