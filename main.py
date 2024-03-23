@@ -4,7 +4,7 @@ from discord.ext import commands, tasks
 import os
 from keep_alive import keep_alive
 keep_alive()
-TOKEN = os.environ.get['TOKEN']
+TOKEN = os.environ['TOKEN']
 
 # 设置 FILECOIN 的 API URL
 FILECOIN_API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=filecoin&vs_currencies=usd"
