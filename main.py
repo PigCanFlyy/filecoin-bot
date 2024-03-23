@@ -29,7 +29,7 @@ def get_filecoin_price():
     response = requests.get(FILECOIN_API_URL, headers=HEADERS, params=parameters)
     if response.status_code == 200:
         data = response.json()
-        filecoin_price = round(data['data']['FIL']['quote']['USD']['price'])
+        filecoin_price = round(data['data']['FIL']['quote']['USD']['price'],3)
         return f"$FIL Price: ${filecoin_price}"
     else:
         return "Failed to retrieve FILECOIN price"
